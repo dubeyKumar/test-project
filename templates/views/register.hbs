@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    {{>header}}
+    <title>Document</title>
+  </head>
+  <body>
+    {{>navbar}}
+    <h1 class="log__in_23">sign up</h1>
+    <div class="create__form">
+      
+
+    <form class="handling__form" action="/register" method="POST">
+      
+        <input class="input__text" type="text" name="firstname" placeholder="First Name" />
+      
+      
+        <input class="input__text" type="text" name="lastname" placeholder="Last Name" />
+      
+      
+<input class="input__text" type="email" name="email" placeholder="Your Email" />
+     
+     
+         <input class="input__text" type="tel" name="phone" minlength="10" maxlength="10" placeholder="Your Phone" />
+     
+    
+        <input class="input__text" type="password" name="password" placeholder=" Password" />
+   
+    
+              <input class="input__text" type="password" name="confirmpassword" placeholder="Confirm Password" />
+
+   
+      
+      
+              <input class="input__text" type="text" name="age" placeholder="Enter your age" />
+
+    
+      
+      <br />
+      <br />
+     
+      
+      <label class="radio inline labeling__for">
+        <input  type="radio" name="gender" value="male" checked>
+        <span class="expand__name">Male</span>
+      </label>
+      <label class="radio inline labeling__for">
+        <input  type="radio" name="gender" value="female" checked>
+        <span class="expand__name">Female</span>
+      </label>
+      <br />
+      <input type="submit" class="btnRegister" value="Register" />
+    </form>
+    </div>
+
+    
+
+  </body>
+</html>

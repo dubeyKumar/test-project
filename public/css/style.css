@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.main__headin__56 {
+  display: flex;
+  justify-content: center;
+}
+.heads__mai__12 {
+  display: flex;
+  list-style: none;
+}
+.anch__tg__67 {
+  margin-top: 10px;
+  color: black;
+  padding: 20px;
+  cursor: pointer;
+}
+.header_main {
+  width: auto;
+  height: auto;
+  background-color: aliceblue;
+}
+.nav__12 {
+  height: 130px;
+  background-color: rgba(50, 144, 144, 0.3);
+  z-index: 100;
+}
+.ttle__54 {
+  padding-top: 40px;
+
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  letter-spacing: 0.4rem;
+  color: #fff;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+}
+
+.smart_123 {
+  display: flex;
+  justify-content: center;
+}
+.smart__23 {
+  font-weight: 600;
+
+  color: rgba(21, 137, 195, 0.7);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.efficient__59 {
+  font-weight: 600;
+  color: hsla(0, 80%, 50%, 0.7);
+}
+
+.form__data {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* margin-left: 300px;
+  margin-right: 300px; */
+}
+a {
+  text-decoration: none;
+}
+
+.log__in_23 {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: rgb(101, 101, 204);
+
+  font-size: 2rem;
+}
+.email__data {
+  font-size: small;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.inpt__type {
+  width: 500px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 2px solid hsla(0, 0%, 0%, 0.3);
+  /* box-shadow: 0 0px 1px 1px hsla(0, 0%, 0%, 0.3); */
+}
+
+.btn__me__78 {
+  margin-top: 10px;
+  width: 500px;
+  height: 40px;
+  padding: 10px;
+  color: #fff;
+  background-color: rgb(99, 99, 197);
+  border: none;
+  border-radius: 20px;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.acoount__create {
+  font-size: large;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+  padding-top: 40px;
+  text-align: center;
+}
+.sign__page {
+  color: blue;
+}
+
+.create__form {
+  display: flex;
+  /* border: 2px solid red; */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .handling__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.padd__grup {
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.input__text {
+  width: 200px;
+  padding: 10px;
+}
+
+/* .input__text {
+  padding: 20px;
+  width: 40%;
+  height: 35px;
+} */
+
+/* .labeling__for {
+  align-items: flex-start;
+}
+.btnRegister {
+  display: block;
+  width: 400px;
+} */
+
+.input__text {
+  margin: 30px;
+  padding: 12px;
+  width: 40%;
+  border: none;
+  border-radius: 20px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.labeling__for {
+  margin-left: 40px;
+}
+.expand__name {
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.btnRegister {
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 90px;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: rgb(12, 12, 92);
+  border: none;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
